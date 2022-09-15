@@ -1,0 +1,21 @@
+import 'dotenv/config'
+
+export const {
+  MONGO_DB_NAME,
+  MONGO_DB_URI,
+
+  JWT_SECRET,
+
+  API_URL,
+  NODE_ENV,
+  PORT,
+
+  FROM_EMAIL,
+  SENDGRID_API_KEY,
+  TEST_EMAIL,
+
+  CLOUDINARY_CLOUD_NAME,
+  CLOUDINARY_API_KEY,
+  CLOUDINARY_SECRET_KEY,
+  CLOUDINARY_URL,
+} = process.env
